@@ -1,0 +1,155 @@
+.login-profile .drop-item button {
+  box-shadow: none !important;
+}
+.fixd-nabar {
+  background-color: #ffffff;
+  .brand-logo {
+    width: 190px;
+  }
+}
+.mapLink {
+  width: 116px;
+  height: 44px;
+}
+.nav-text-btn {
+  color: #373435;
+  font-weight: 600 !important;
+  display: inline-block;
+  width: auto !important;
+}
+
+.nav-text-btn::after {
+  content: "" !important;
+  display: block !important;
+  width: 0 !important;
+  height: 4px !important;
+  background: #f8eb00 !important;
+  transition: width 0.4s ease-in !important;
+}
+
+.nav-text-btn:hover::after {
+  width: 100% !important;
+}
+
+.login-profile {
+  .drop-togel {
+    border: transparent !important;
+    margin-left: 16px;
+  }
+
+  @media screen and (max-width: 1366px) {
+    .drop-togel {
+      border: transparent !important;
+      margin-left: 8px !important;
+    }
+  }
+  .drop-item {
+    color: #373435 !important;
+    font-weight: 600 !important;
+    span {
+      padding: 0px !important;
+
+      color: #373435 !important;
+      font-weight: 600 !important;
+    }
+  }
+}
+
+.user-detail-login {
+  .login-icon {
+    font-size: 30px;
+    transition: 0.2s;
+  }
+  .login-icon:hover {
+    color: #e6db14 !important ;
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .drop-togel {
+    border: transparent !important;
+  }
+  .drop-item {
+    color: #373435 !important;
+    font-weight: 600 !important;
+  }
+}
+.login-profile {
+  .login-icon {
+    height: 30px;
+    width: 30px;
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .drop-togel {
+    border: transparent !important;
+  }
+  .drop-item {
+    color: #373435 !important;
+    font-weight: 600 !important;
+  }
+}
+.font-map-btn {
+  color: #373435 !important;
+  font-weight: 600 !important;
+}
+
+.font-map-logo {
+  font-size: 28px;
+  margin-bottom: 1%;
+}
+#dropdown-basic-user {
+  display: none;
+}
+.userDetail {
+  .dropdown-toggle::after {
+    display: none;
+  }
+}
+
+.anchor {
+  text-decoration: none;
+}
+.login-icon-cart {
+  height: 36px;
+}
+
+@media screen and (max-width: 1366px) {
+  .fixd-nabar {
+    .brand-logo {
+      width: 175px;
+    }
+  }
+  .nav-text-btn {
+    font-size: 0.9rem !important;
+  }
+  .font-map-btn {
+    font-size: 0.9rem !important;
+  }
+
+  .font-map-logo {
+    height: 21px !important;
+  }
+}
+
+@media screen and (max-width: 425px) { 
+  .fixd-nabar {
+    margin: 0px 10px;
+
+    .brand-logo {
+      width: 123px;
+    }
+    button:not(:disabled), [type=button]:not(:disabled){
+      height: 28px;
+      width: 40px;
+      padding: 0px;
+    }
+    .navbar-toggler-icon {
+      height: 22px !important;
+      width:30px !important;
+   
+    }
+  }
+
+}

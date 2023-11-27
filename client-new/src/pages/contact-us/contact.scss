@@ -1,0 +1,109 @@
+@import "../../assets/scss/_variables.scss";
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700");
+
+.main-contact-all {
+  h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: black;
+  }
+  h5 {
+    color: #777777;
+    font-size: 1.2rem;
+  }
+  h3 {
+    color: black;
+    font-weight: 700;
+  }
+  h6 {
+    color: #0d0d0d;
+    font-size: 1rem;
+  }
+  .orr{
+    font-style: italic;
+  }
+}
+.main-contact {
+  background-color: #fefefe;
+  box-shadow: rgba(98, 98, 105, 0.2) 0px 7px 29px 0px;
+  h1 {
+    font-size: 3.2rem;
+    font-weight: 650;
+    color: black;
+  }
+  h5 {
+    color: #777777;
+    font-size: 1.2rem;
+  }
+  h3 {
+    color: black;
+    font-weight: 700;
+  }
+  h6 {
+    color: #0d0d0d;
+    font-size: 1rem;
+  }
+
+  .google-map {
+    height: 75vh;
+    width: 100%;
+  }
+  .contact-form {
+    .message-btn {
+      background-color: #252324;
+      color: rgb(237, 237, 237);
+      font-size: 1.1rem;
+      border-radius: 4px !important;
+    }
+    .message-btn:hover {
+      background-color: #4a494a;
+      color: rgb(237, 237, 237);
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+   
+    .txt-clr-tlk {
+      color: #373435;
+      font-size: 2.2rem;
+    }
+    .txt-clr {
+      color: #373435;
+    }
+    .form-control {
+      border: none !important;
+      border-bottom: 1px solid #b5b4b4 !important;
+    }
+    label {
+      color: #6c757d !important;
+      font-size: 0.9rem;
+    }
+    ::-webkit-input-placeholder {
+      font-size: 1rem !important;
+    }
+    .form-control:focus {
+      border-color: rgb(58, 57, 57) !important;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+  }
+}
+@media screen and (max-width: 1366px) {
+  .main-contact-all {
+    h1 {
+      font-size: 3rem;
+    }
+    h5 {
+      font-size: 1rem;
+    }
+
+    h6 {
+      font-size: 0.9rem;
+    }
+  }
+}

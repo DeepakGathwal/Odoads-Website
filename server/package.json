@@ -1,0 +1,41 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "start:prod": "env-cmd -f .env.prod nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "node-sessionstorage": "^1.0.0",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.16",
+    "passport": "^0.6.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "pptxgenjs": "^3.11.0",
+    "react-linkedin-login-oauth2": "^2.0.1",
+    "redis": "^4.5.1",
+    "request": "^2.88.2",
+    "sessionstorage": "^0.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
